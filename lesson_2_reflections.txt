@@ -1,0 +1,9 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+- When I initialize a repository by using "git init", the command line inform me that "Initialized empty Git repository in PATH". And in this folder I have a new file named ".git" but it's invisible. If I want to see it, I should using command line to input "ls -a" in this directory.
+- After I initialize a repository, all information about change of different version will be recorded by this file, ".git", and I can use many command of git to checkout old version or see the differnece between two commit version.
+
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is a temporary area that used to store some uncommit version of program. Working directory is a directory on whereyou are working. Repository is a place that contains all my working files. Using "git add" to add what working files you want to add to staging area. Then I can commit all these files in staging area to repository at once, which regard all these change as one commit, one logical change, without adding one file per time.
